@@ -1,3 +1,5 @@
 .idea/*
+python/.idea/*
+python/venv
 target/*
 project/target/*
