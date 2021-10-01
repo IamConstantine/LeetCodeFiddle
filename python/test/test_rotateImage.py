@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from rotateImage import rotate
+from RotateImage import rotate
 
 
 class Test(TestCase):

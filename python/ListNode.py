@@ -13,6 +13,8 @@ def linkedListToList(head):
 
 
 def createListNode(elements):
+    if not elements:
+        return None
     head = prev = ListNode(elements[0])
     for val in elements[1:]:
         curr = ListNode(val)
