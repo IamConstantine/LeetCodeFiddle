@@ -1,6 +1,7 @@
 from typing import List
 
-#https://leetcode.com/problems/counting-bits
+
+# https://leetcode.com/problems/counting-bits
 
 def countBits(n: int) -> List[int]:
     ans = []
