@@ -8,7 +8,7 @@ class Test(TestCase):
     def test_tribonacci(self):
         self.assertEqual(4, tribonacci(4))
 
-        # time the two approaches
+        # time the two approaches - microseconds
         start = time.time()
         tribonacci(25)
         end = time.time()
