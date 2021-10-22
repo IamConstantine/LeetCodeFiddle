@@ -1,3 +1,4 @@
+from collections import deque
 from queue import Queue
 
 
@@ -30,6 +31,32 @@ def levelOrder(root: TreeNode) -> []:
     for i in range(h):
         arr += getElementsOfLevel(root, i)
     return arr
+
+
+def toTreeArray(root: TreeNode):
+    if root is None:
+        return []
+    h = height(root)
+
+    arr = [None] * ((2 ** h) - 1)
+    arr[0] = root.val
+
+    q = deque()
+    q.append((0, root))
+
+    while q:
+        index, node = q.popleft()
+
+        if node.left:
+            arr[2 * index + 1] = node.left.val
+            q.append((2 * index + 1, node.left))
+        if node.right:
+            arr[2 * index + 2] = node.right.val
+            q.append((2 * index + 2, node.right))
+
+    # get rid of trailing Nones
+
+    return arr[:(next(i for i in range(len(arr) - 1, -1, -1) if arr[i] is not None)) + 1]
 
 
 def getElementsOfLevel(root, level):
