@@ -3,3 +3,4 @@ python/.idea/*
 python/venv
 target/*
 project/target/*
+.DS_Store
