@@ -18,3 +18,8 @@ Solutions to LeetCode problems in Scala
 #### **Group Shifted Strings**
 
 1. [Group Anagrams](https://leetcode.com/problems/group-anagrams) - can do using sorted strings(O(NKlogK)) or character count(0(NK)) approach
+
+
+#### **Array**
+
+1. [Spiral Order](https://leetcode.com/problems/spiral-matrix) - Simple problem - The time spent is to figure out the boundaries, and edge cases(when right = left or up = down).
