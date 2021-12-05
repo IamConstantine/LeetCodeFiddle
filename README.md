@@ -23,6 +23,7 @@ Solutions to LeetCode problems in Scala
 #### **Array**
 
 1. [Spiral Order](https://leetcode.com/problems/spiral-matrix) - Simple problem - The time spent is to figure out the boundaries, and edge cases(when right = left or up = down).
+2. [Merge Intervals](https://leetcode.com/problems/merge-intervals) - Sort the intervals in nlogn and then just do a linear comparison.
 
 #### **Greedy**
 
