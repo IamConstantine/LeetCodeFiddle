@@ -5,6 +5,11 @@ Solutions to LeetCode problems in Scala
 
 ## Hints:
 
+#### **Dynamic Programming**
+
+1. [Unique Paths](https://leetcode.com/problems/unique-paths) - Use the dp array to solve this in O(mn) complexity. Instantiate first row and first column with 1 as its a known valid path to m.n. There's an intuitive recursive + memoisation solution as well.
+
+
 #### **Divide and Conquer**
 
 1. [Search in Rotated Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) - Use Binary search approach to solve in O(log n). Find the mid and check if right is sorted first ie compare l and mid. Binary search is called a _decrease and conquer_ problem instead of _divide and conquer_.
