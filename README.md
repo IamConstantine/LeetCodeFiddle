@@ -20,9 +20,10 @@ Solutions to LeetCode problems in Scala
 1. [Combination Sum](https://leetcode.com/problems/combination-sum) - Find all combinations for the given sum. Nothing to memoise here. You can use one node multiple times in the path to find the combination. But you cannot use your parent node once you have gone down the level.
 
 
-#### **Group Shifted Strings**
+#### **Strings**
 
-1. [Group Anagrams](https://leetcode.com/problems/group-anagrams) - can do using sorted strings(O(NKlogK)) or character count(0(NK)) approach
+1. [Group Anagrams](https://leetcode.com/problems/group-anagrams) - can define group key using sorted strings(O(NKlogK)) or character count(0(NK)) approach
+2. [String Minimum Window](https://leetcode.com/problems/minimum-window-substring) - use length of t and l and r ptrs for window to solve this in O(2S)
 
 
 #### **Array**
