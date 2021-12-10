@@ -6,7 +6,7 @@ from Tree import TreeNode
 # Super Easy
 
 # T = O(n)
-# S = O(n)
+# S = O(N) worst case but for BST it can O(logN)
 
 def isSameTree(p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
     if (not p and q) or (not q and p):
