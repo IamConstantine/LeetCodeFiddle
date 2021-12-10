@@ -2,6 +2,7 @@ from typing import List
 
 
 # https://leetcode.com/problems/maximum-subarray
+# Kadane's algorithm
 
 def maxSubArray(nums: List[int]) -> int:
     max_sum = -10000

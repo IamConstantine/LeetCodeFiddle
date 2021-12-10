@@ -8,7 +8,7 @@ Solutions to LeetCode problems in Scala
 #### **Dynamic Programming**
 
 1. [Unique Paths](https://leetcode.com/problems/unique-paths) - Use the dp array to solve this in O(mn) complexity. Instantiate first row and first column with 1 as its a known valid path to m.n. There's an intuitive recursive + memoisation solution as well.
-
+2. [[String Two Digit Decoding](https://leetcode.com/problems/decode-ways) - The DP array solution. Each non zero is a 1 ie dp[i] = dp[i-1] and each two digits >=10 is dp[i] += dp[i-2].
 
 #### **Divide and Conquer**
 
