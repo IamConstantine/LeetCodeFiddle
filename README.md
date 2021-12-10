@@ -36,3 +36,7 @@ Solutions to LeetCode problems in Scala
 #### **Greedy**
 
 1. [Can Jump](https://leetcode.com/problems/jump-game) - Simple bottom up solution using Greedy. Just use the lastPos pointer to solve the local optima. This problem can be solved using DP as well but the solution is worse ie O(n^2)
+
+#### **Tree**
+
+1. [Same Tree](https://leetcode.com/problems/same-tree) - Simple preorder traversal and equality check
