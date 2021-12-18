@@ -24,7 +24,7 @@ Solutions to LeetCode problems in Scala
 
 1. [Group Anagrams](https://leetcode.com/problems/group-anagrams) - can define group key using sorted strings(O(NKlogK)) or character count(0(NK)) approach
 2. [String Minimum Window](https://leetcode.com/problems/minimum-window-substring) - use length of t and l and r ptrs for window to solve this in O(2S)
-
+3. [Validate Palindrome](https://leetcode.com/problems/valid-palindrome) - Easy problem solved using a l and r pointer.
 
 #### **Array**
 
