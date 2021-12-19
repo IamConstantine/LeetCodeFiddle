@@ -42,3 +42,4 @@ Solutions to LeetCode problems in Scala
 1. [Same Tree](https://leetcode.com/problems/same-tree) - Simple preorder traversal and equality check
 2. [Max Depth](https://leetcode.com/problems/maximum-depth-of-binary-tree) - easy tree traversal and sum. This can be solved either using BFS iteration using stack or using recursion
 3. [Validate BST](https://leetcode.com/problems/validate-binary-search-tree) - Medium question to find a simple trick. Each node in the tree should greater than max of its left and smaller than min of its right.
+4. [Level Order Tree](https://leetcode.com/problems/binary-tree-level-order-traversal) - Easy Question which is solved using a Queue
