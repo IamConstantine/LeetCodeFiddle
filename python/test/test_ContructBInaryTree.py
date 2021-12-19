@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from ContructBInaryTree import buildTree
+from ContructBinaryTree import buildTree
 from Tree import toTreeArray
 
 

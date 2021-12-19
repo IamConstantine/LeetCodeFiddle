@@ -44,3 +44,4 @@ Solutions to LeetCode problems in Scala
 3. [Validate BST](https://leetcode.com/problems/validate-binary-search-tree) - Medium question to find a simple trick. Each node in the tree should greater than max of its left and smaller than min of its right.
 4. [Level Order Tree](https://leetcode.com/problems/binary-tree-level-order-traversal) - Easy Question which is solved using a Queue
 5. [Contruct Binary Tree](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) - Solved using inorder map(value, index),incrementing preorder index and a l and r for tracking size of subtree 
+5. [Tree Max Sum Path](https://leetcode.com/problems/binary-tree-maximum-path-sum) - a hard question solved within half an hour :). Find the max at each node by comparing current node, max of left and max of right.
