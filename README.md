@@ -35,6 +35,10 @@ Solutions to LeetCode problems in Scala
 4. [Set Zeroes](https://leetcode.com/problems/set-matrix-zeroes) - Intuitive solution using additional set for row and column indices is easy. The no additional space solution is a bit tricky and read the code comments to understand that. 
 5. [Longest Common Subsequence](https://leetcode.com/problems/longest-consecutive-sequence) - N iterator and do an inner loop only when you find the head of a sequence i.e curr - 1 not in nums_set. We use set for O(1) lookup and also to eliminate duplicates
 
+#### **Linked List**
+
+1. [Detect Loop](https://leetcode.com/problems/linked-list-cycle) - Floyd's Cycle Detection Algorithm
+
 #### **Greedy**
 
 1. [Can Jump](https://leetcode.com/problems/jump-game) - Simple bottom up solution using Greedy. Just use the lastPos pointer to solve the local optima. This problem can be solved using DP as well but the solution is worse ie O(n^2)
