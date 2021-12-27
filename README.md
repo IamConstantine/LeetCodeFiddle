@@ -60,3 +60,4 @@ Solutions to LeetCode problems in Scala
 ### **Bit Manipulation**
 
 1. [Reverse BIts for 32 bit unsigned number](https://leetcode.com/problems/reverse-bits) - use bitwise operators to mask and shift the input
+2. [Count Set Bits](https://leetcode.com/problems/number-of-1-bits) - use mask and shift
