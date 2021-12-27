@@ -56,3 +56,7 @@ Solutions to LeetCode problems in Scala
 ### **Graph**
 
 1. [Clone Graph](https://leetcode.com/problems/clone-graph) - Can use BFS to traverse each node and get all the neighbours and a map to store the new nodes as keys.
+
+### **Bit Manipulation**
+
+1. [Reverse BIts for 32 bit unsigned number](https://leetcode.com/problems/reverse-bits) - use bitwise operators to mask and shift the input
