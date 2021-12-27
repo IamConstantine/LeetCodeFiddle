@@ -52,3 +52,7 @@ Solutions to LeetCode problems in Scala
 4. [Level Order Tree](https://leetcode.com/problems/binary-tree-level-order-traversal) - Easy Question which is solved using a Queue
 5. [Contruct Binary Tree](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) - Solved using inorder map(value, index),incrementing preorder index and a l and r for tracking size of subtree 
 5. [Tree Max Sum Path](https://leetcode.com/problems/binary-tree-maximum-path-sum) - a hard question solved within half an hour :). Find the max at each node by comparing current node, max of left and max of right.
+
+### **Graph**
+
+1. [Clone Graph](https://leetcode.com/problems/clone-graph) - Can use BFS to traverse each node and get all the neighbours and a map to store the new nodes as keys.
