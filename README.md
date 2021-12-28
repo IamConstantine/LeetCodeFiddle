@@ -40,6 +40,7 @@ Solutions to LeetCode problems in Scala
 
 1. [Detect Loop](https://leetcode.com/problems/linked-list-cycle) - Floyd's Cycle Detection Algorithm.
 2. [Reorder List](https://leetcode.com/problems/reorder-list) - first and last ptrs on a list to traverse and merge them.
+3. [Reverse LL](https://leetcode.com/problems/reverse-linked-list) - n iteration solution.
 
 #### **Greedy**
 
