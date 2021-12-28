@@ -57,6 +57,7 @@ Solutions to LeetCode problems in Scala
 ### **Graph**
 
 1. [Clone Graph](https://leetcode.com/problems/clone-graph) - Can use BFS to traverse each node and get all the neighbours and a map to store the new nodes as keys.
+2. [Number of Islands](https://leetcode.com/problems/number-of-islands) - a solution using DFS/BFS with set. It can also be solved using Union Find.
 
 ### **Bit Manipulation**
 
