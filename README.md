@@ -9,7 +9,8 @@ Solutions to LeetCode problems in Scala
 
 1. [Unique Paths](https://leetcode.com/problems/unique-paths) - Use the dp array to solve this in O(mn) complexity. Instantiate first row and first column with 1 as its a known valid path to m.n. There's an intuitive recursive + memoisation solution as well.
 2. [String Two Digit Decoding](https://leetcode.com/problems/decode-ways) - The DP array solution. Each non zero is a 1 ie dp[i] = dp[i-1] and each two digits >=10 is dp[i] += dp[i-2].
-3. [House Robber](https://leetcode.com/problems/house-robber) - Calculate max(i + i-2, i-1). 
+3. [Word Break](https://leetcode.com/problems/word-break) - DP Recursion + memoisation
+4. [House Robber](https://leetcode.com/problems/house-robber) - Calculate max(i + i-2, i-1). 
 
 #### **Divide and Conquer**
 
@@ -26,7 +27,7 @@ Solutions to LeetCode problems in Scala
 1. [Group Anagrams](https://leetcode.com/problems/group-anagrams) - can define group key using sorted strings(O(NKlogK)) or character count(0(NK)) approach
 2. [String Minimum Window](https://leetcode.com/problems/minimum-window-substring) - use length of t and l and r ptrs for window to solve this in O(2S)
 3. [Validate Palindrome](https://leetcode.com/problems/valid-palindrome) - Easy problem solved using a l and r pointer.
-4. [Word Break](https://leetcode.com/problems/word-break) - DP Recusion + memoisation
+4. [Is Anagram ?](https://leetcode.com/problems/valid-anagram) - Use Hashset
 
 #### **Array**
 
