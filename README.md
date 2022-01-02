@@ -59,6 +59,7 @@ Solutions to LeetCode problems in Scala
 5. [Tree Max Sum Path](https://leetcode.com/problems/binary-tree-maximum-path-sum) - a hard question solved within half an hour :). Find the max at each node by comparing current node, max of left and max of right.
 6. [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) - use inorder traversal iterative.
 7. [Valid Tree](https://leetcode.com/problems/graph-valid-tree) - A Tree has only V-1 edges. So check this and if it passes, then check if all nodes are connected. No need to check if graph has cycles because connected graph with cycle should have more than n - 1 edges.
+8. [Is Subtree](https://leetcode.com/problems/subtree-of-another-tree) - Easy impl using find and isSame methods but its O(N * M). Use Merkel Tree for O(N + M) solution. 
 
 ### **Graph**
 
