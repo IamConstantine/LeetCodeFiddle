@@ -9,6 +9,7 @@ from Tree import TreeNode
 # The problem defines distinct node values.
 # If there were duplicates, its possible to have more than one tree. In that case, we need a list of node refs for
 # inorder and preorder instead of values.
+# for postorder, its just run the index from n-1 to 0 and so we need to build first right subtree and then left.
 
 def buildTree(preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
     def buildTreeInner(l, r):  # l, r are used as a way to track the size of subtree. Size of subtree - r - l + 1.
