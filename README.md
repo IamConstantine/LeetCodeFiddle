@@ -40,6 +40,8 @@ Solutions to LeetCode problems in Scala
 4. [Set Zeroes](https://leetcode.com/problems/set-matrix-zeroes) - Intuitive solution using additional set for row and column indices is easy. The no additional space solution is a bit tricky and read the code comments to understand that. 
 5. [Longest Common Subsequence](https://leetcode.com/problems/longest-consecutive-sequence) - N iterator and do an inner loop only when you find the head of a sequence i.e curr - 1 not in nums_set. We use set for O(1) lookup and also to eliminate duplicates
 5. [Product Except Self](https://leetcode.com/problems/product-of-array-except-self) - Build an array with left product and then calculate right product and the output array.
+6. [Non-Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) - Similiar
+   to merge intervals which needs sorting. In this while merging, just do a count instead.
 
 #### **Linked List**
 
