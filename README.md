@@ -64,14 +64,14 @@ Solutions to LeetCode problems in Scala
 6. [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) - use inorder traversal iterative.
 7. [Valid Tree](https://leetcode.com/problems/graph-valid-tree) - A Tree has only V-1 edges. So check this and if it passes, then check if all nodes are connected. No need to check if graph has cycles because connected graph with cycle should have more than n - 1 edges.
 8. [Is Subtree](https://leetcode.com/problems/subtree-of-another-tree) - Easy impl using find and isSame methods but its O(N * M). Use Merkel Tree for O(N + M) solution. 
-9. [Pacific Atlantic Water Flows](https://leetcode.com/problems/pacific-atlantic-water-flow) - use dfs to traverse all edges and individually compute visited for pacific and atlantic edges. The just perform an intersection at the end.
 
 ### **Graph**
 
 1. [Clone Graph](https://leetcode.com/problems/clone-graph) - Can use BFS to traverse each node and get all the neighbours and a map to store the new nodes as keys.
 2. [Number of Islands](https://leetcode.com/problems/number-of-islands) - a solution using DFS/BFS with set. It can also be solved using Union Find.
 3. [Connected Components](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) - Use BFS/DFS to traverse each connected component.
-
+4. [Pacific Atlantic Water Flows](https://leetcode.com/problems/pacific-atlantic-water-flow) - use dfs to traverse all edges and individually compute visited for pacific and atlantic edges. The just perform an intersection at the end.
+5. [Course Schedule](https://leetcode.com/problems/course-schedule) - Use DFS to find if there is a cycle.
 ### **Bit Manipulation**
 
 1. [Reverse BIts for 32 bit unsigned number](https://leetcode.com/problems/reverse-bits) - use bitwise operators to mask and shift the input
