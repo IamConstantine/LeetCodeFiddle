@@ -42,6 +42,7 @@ Solutions to LeetCode problems in Scala
 5. [Product Except Self](https://leetcode.com/problems/product-of-array-except-self) - Build an array with left product and then calculate right product and the output array.
 6. [Non-Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) - Similiar to merge intervals which needs sorting. In this while merging, just do a count instead.
 7. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) - Use Quick-select to partition the array and move all k element to the right.
+8. [Max Distance to Closest](https://leetcode.com/problems/maximize-distance-to-closest-person) - Use a simple n algorithm to find mid between two allocated seats.
 
 #### **Linked List**
 
