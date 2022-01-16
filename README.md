@@ -43,6 +43,7 @@ Solutions to LeetCode problems in Scala
 6. [Non-Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) - Similiar to merge intervals which needs sorting. In this while merging, just do a count instead.
 7. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) - Use Quick-select to partition the array and move all k element to the right.
 8. [Max Distance to Closest](https://leetcode.com/problems/maximize-distance-to-closest-person) - Use a simple n algorithm to find mid between two allocated seats.
+9. [Meeting Rooms](https://leetcode.com/problems/meeting-rooms) - sort and then compare i end with i +1 start.
 
 #### **Linked List**
 
