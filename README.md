@@ -44,6 +44,7 @@ Solutions to LeetCode problems in Scala
 7. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) - Use Quick-select to partition the array and move all k element to the right.
 8. [Max Distance to Closest](https://leetcode.com/problems/maximize-distance-to-closest-person) - Use a simple n algorithm to find mid between two allocated seats.
 9. [Meeting Rooms](https://leetcode.com/problems/meeting-rooms) - sort and then compare i end with i +1 start.
+10.[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii) - sort by start time and use heap on end time to get the no of rooms required or separate start and end ts and work on that using two pointers.
 
 #### **Linked List**
 
