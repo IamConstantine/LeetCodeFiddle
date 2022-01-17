@@ -11,9 +11,9 @@ Solutions to LeetCode problems in Scala
 2. [String Two Digit Decoding](https://leetcode.com/problems/decode-ways) - The DP array solution. Each non zero is a 1 ie dp[i] = dp[i-1] and each two digits >=10 is dp[i] += dp[i-2].
 3. [Word Break](https://leetcode.com/problems/word-break) - DP Recursion + memoisation
 4. [House Robber](https://leetcode.com/problems/house-robber) - Calculate max(i + i-2, i-1). 
-5. [Long Increasing Sequence](https://leetcode.com/problems/longest-increasing-subsequence) - An N^2 algo to compute the seq length for eveyr ith valu
-6. [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) - use
-   bottom up on a dp[text1+1][text2+1] array. Refer the solution section for more details.
+5. [Long Increasing Sequence](https://leetcode.com/problems/longest-increasing-subsequence) - An N^2 algo to compute the seq length for every ith value.
+6. [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) - use bottom up on a dp[text1+1][text2+1] array. Refer the solution section for more details.
+7. [House Robber II](https://leetcode.com/problems/house-robber-ii) - compute max of house_robber(1, N) and house_robber(0, N-1).
 
 #### **Divide and Conquer**
 
