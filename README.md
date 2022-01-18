@@ -34,18 +34,19 @@ Solutions to LeetCode problems in Scala
 
 #### **Array**
 
-1. [Spiral Order](https://leetcode.com/problems/spiral-matrix) - Simple problem - The time spent is to figure out the boundaries, and edge cases(when right = left or up = down).
-2. [Merge Intervals](https://leetcode.com/problems/merge-intervals) - Sort the intervals in nlogn and then just do a linear comparison.
-3. [Insert Interval](https://leetcode.com/problems/insert-interval) - As the list is already sorted and has non overlapping intervals, its an easy problem which is similar to Merge Intervals
-4. [Set Zeroes](https://leetcode.com/problems/set-matrix-zeroes) - Intuitive solution using additional set for row and column indices is easy. The no additional space solution is a bit tricky and read the code comments to understand that. 
-5. [Longest Common Subsequence](https://leetcode.com/problems/longest-consecutive-sequence) - N iterator and do an inner loop only when you find the head of a sequence i.e curr - 1 not in nums_set. We use set for O(1) lookup and also to eliminate duplicates
-5. [Product Except Self](https://leetcode.com/problems/product-of-array-except-self) - Build an array with left product and then calculate right product and the output array.
-6. [Non-Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) - Similiar to merge intervals which needs sorting. In this while merging, just do a count instead.
-7. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) - Use Quick-select to partition the array and move all k element to the right.
-8. [Max Distance to Closest](https://leetcode.com/problems/maximize-distance-to-closest-person) - Use a simple n algorithm to find mid between two allocated seats.
-9. [Meeting Rooms](https://leetcode.com/problems/meeting-rooms) - sort and then compare i end with i +1 start.
-10.[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii) - sort by start time and use heap on end time to get the no of rooms required or separate start and end ts and work on that using two pointers.
-11.[Can Place Flowers](https://leetcode.com/problems/can-place-flowers) - start from imaginary prev -2 and find no of plots which can be used between two flowers.
+1.  [Spiral Order](https://leetcode.com/problems/spiral-matrix) - Simple problem - The time spent is to figure out the boundaries, and edge cases(when right = left or up = down).
+2.  [Merge Intervals](https://leetcode.com/problems/merge-intervals) - Sort the intervals in nlogn and then just do a linear comparison.
+3.  [Insert Interval](https://leetcode.com/problems/insert-interval) - As the list is already sorted and has non overlapping intervals, its an easy problem which is similar to Merge Intervals
+4.  [Set Zeroes](https://leetcode.com/problems/set-matrix-zeroes) - Intuitive solution using additional set for row and column indices is easy. The no additional space solution is a bit tricky and read the code comments to understand that. 
+5.  [Longest Common Subsequence](https://leetcode.com/problems/longest-consecutive-sequence) - N iterator and do an inner loop only when you find the head of a sequence i.e curr - 1 not in nums_set. We use set for O(1) lookup and also to eliminate duplicates
+5.  [Product Except Self](https://leetcode.com/problems/product-of-array-except-self) - Build an array with left product and then calculate right product and the output array.
+6.  [Non-Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) - Similiar to merge intervals which needs sorting. In this while merging, just do a count instead.
+7.  [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) - Use Quick-select to partition the array and move all k element to the right.
+8.  [Max Distance to Closest](https://leetcode.com/problems/maximize-distance-to-closest-person) - Use a simple n algorithm to find mid between two allocated seats.
+9.  [Meeting Rooms](https://leetcode.com/problems/meeting-rooms) - sort and then compare i end with i +1 start.
+10. [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii) - sort by start time and use heap on end time to get the no of rooms required or separate start and end ts and work on that using two pointers.
+11. [Can Place Flowers](https://leetcode.com/problems/can-place-flowers) - start from imaginary prev -2 and find no of plots which can be used between two flowers.
+12. [Monotonic Array](https://leetcode.com/problems/monotonic-array) - set inc and dec to True and then start the loop to unset the required flags based on the order of growth.
 
 #### **Linked List**
 
