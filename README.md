@@ -60,15 +60,16 @@ Solutions to LeetCode problems in Scala
 
 #### **Tree**
 
-1. [Same Tree](https://leetcode.com/problems/same-tree) - Simple preorder traversal and equality check
-2. [Max Depth](https://leetcode.com/problems/maximum-depth-of-binary-tree) - easy tree traversal and sum. This can be solved either using BFS iteration using stack or using recursion
-3. [Validate BST](https://leetcode.com/problems/validate-binary-search-tree) - Medium question to find a simple trick. Each node in the tree should greater than max of its left and smaller than min of its right.
-4. [Level Order Tree](https://leetcode.com/problems/binary-tree-level-order-traversal) - Easy Question which is solved using a Queue
-5. [Contruct Binary Tree](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) - Solved using inorder map(value, index),incrementing preorder index and a l and r for tracking size of subtree 
-5. [Tree Max Sum Path](https://leetcode.com/problems/binary-tree-maximum-path-sum) - a hard question solved within half an hour :). Find the max at each node by comparing current node, max of left and max of right.
-6. [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) - use inorder traversal iterative.
-7. [Valid Tree](https://leetcode.com/problems/graph-valid-tree) - A Tree has only V-1 edges. So check this and if it passes, then check if all nodes are connected. No need to check if graph has cycles because connected graph with cycle should have more than n - 1 edges.
-8. [Is Subtree](https://leetcode.com/problems/subtree-of-another-tree) - Easy impl using find and isSame methods but its O(N * M). Use Merkel Tree for O(N + M) solution. 
+1.  [Same Tree](https://leetcode.com/problems/same-tree) - Simple preorder traversal and equality check
+2.  [Max Depth](https://leetcode.com/problems/maximum-depth-of-binary-tree) - easy tree traversal and sum. This can be solved either using BFS iteration using stack or using recursion
+3.  [Validate BST](https://leetcode.com/problems/validate-binary-search-tree) - Medium question to find a simple trick. Each node in the tree should greater than max of its left and smaller than min of its right.
+4.  [Level Order Tree](https://leetcode.com/problems/binary-tree-level-order-traversal) - Easy Question which is solved using a Queue
+5.  [Contruct Binary Tree](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) - Solved using inorder map(value, index),incrementing preorder index and a l and r for tracking size of subtree 
+5.  [Tree Max Sum Path](https://leetcode.com/problems/binary-tree-maximum-path-sum) - a hard question solved within half an hour :). Find the max at each node by comparing current node, max of left and max of right.
+6.  [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) - use inorder traversal iterative.
+7.  [Valid Tree](https://leetcode.com/problems/graph-valid-tree) - A Tree has only V-1 edges. So check this and if it passes, then check if all nodes are connected. No need to check if graph has cycles because connected graph with cycle should have more than n - 1 edges.
+8.  [Is Subtree](https://leetcode.com/problems/subtree-of-another-tree) - Easy impl using find and isSame methods but its O(N * M). Use Merkel Tree for O(N + M) solution. 
+9.  [Least Common Ancestor BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) - Return the parent which caused for p and q.
 
 ### **Graph**
 
