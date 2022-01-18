@@ -45,6 +45,7 @@ Solutions to LeetCode problems in Scala
 8. [Max Distance to Closest](https://leetcode.com/problems/maximize-distance-to-closest-person) - Use a simple n algorithm to find mid between two allocated seats.
 9. [Meeting Rooms](https://leetcode.com/problems/meeting-rooms) - sort and then compare i end with i +1 start.
 10.[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii) - sort by start time and use heap on end time to get the no of rooms required or separate start and end ts and work on that using two pointers.
+11.[Can Place Flowers](https://leetcode.com/problems/can-place-flowers) - start from imaginary prev -2 and find no of plots which can be used between two flowers.
 
 #### **Linked List**
 
