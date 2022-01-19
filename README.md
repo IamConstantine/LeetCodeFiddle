@@ -70,6 +70,7 @@ Solutions to LeetCode problems in Scala
 7.  [Valid Tree](https://leetcode.com/problems/graph-valid-tree) - A Tree has only V-1 edges. So check this and if it passes, then check if all nodes are connected. No need to check if graph has cycles because connected graph with cycle should have more than n - 1 edges.
 8.  [Is Subtree](https://leetcode.com/problems/subtree-of-another-tree) - Easy impl using find and isSame methods but its O(N * M). Use Merkel Tree for O(N + M) solution. 
 9.  [Least Common Ancestor BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) - Return the parent which caused for p and q.
+10. [Least Common Ancestor Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) - count number of matches from current + left + right>=2. If it matches this condition, the curr node is lca.
 
 ### **Graph**
 
