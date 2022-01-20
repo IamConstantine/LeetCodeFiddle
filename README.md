@@ -72,6 +72,7 @@ Solutions to LeetCode problems in Scala
 8.  [Is Subtree](https://leetcode.com/problems/subtree-of-another-tree) - Easy impl using find and isSame methods but its O(N * M). Use Merkel Tree for O(N + M) solution. 
 9.  [Least Common Ancestor BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) - Return the parent which caused for p and q.
 10. [Least Common Ancestor Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) - count number of matches from current + left + right>=2. If it matches this condition, the curr node is lca.
+11. [Find Median in Data Stream](https://leetcode.com/problems/find-median-from-data-stream) - It can be solved using Heap or AVL. Two Heap solution is relatively easy. Use a maxheap for lower half and minheap for upper half and then the median elements can be accessed at the root.
 
 ### **Graph**
 
