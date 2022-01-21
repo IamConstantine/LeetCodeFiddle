@@ -48,6 +48,7 @@ Solutions to LeetCode problems in Scala
 11. [Can Place Flowers](https://leetcode.com/problems/can-place-flowers) - start from imaginary prev -2 and find no of plots which can be used between two flowers.
 12. [Monotonic Array](https://leetcode.com/problems/monotonic-array) - set inc and dec to True and then start the loop to unset the required flags based on the order of growth.
 13. [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas) - use binary search to find the required rate in 1, max(piles) search space.
+14. [Gas Station](https://leetcode.com/problems/gas-station) - take two counters. Total has all deficit : gas - cost and curr tracks consumption from a good starting point.
 
 #### **Linked List**
 
