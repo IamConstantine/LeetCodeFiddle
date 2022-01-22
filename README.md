@@ -74,6 +74,7 @@ Solutions to LeetCode problems in Scala
 9.  [Least Common Ancestor BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) - Return the parent which caused for p and q.
 10. [Least Common Ancestor Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) - count number of matches from current + left + right>=2. If it matches this condition, the curr node is lca.
 11. [Find Median in Data Stream](https://leetcode.com/problems/find-median-from-data-stream) - It can be solved using Heap or AVL. Two Heap solution is relatively easy. Use a maxheap for lower half and minheap for upper half and then the median elements can be accessed at the root.
+12. [Word Dictionary](https://leetcode.com/problems/design-add-and-search-words-data-structure) - Use Trie to solve for defined words and for searches with dots use recursion.
 
 ### **Graph**
 
