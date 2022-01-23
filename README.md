@@ -79,6 +79,7 @@ Solutions to LeetCode problems in Scala
 11. [Find Median in Data Stream](https://leetcode.com/problems/find-median-from-data-stream) - It can be solved using Heap or AVL. Two Heap solution is relatively easy. Use a maxheap for lower half and minheap for upper half and then the median elements can be accessed at the root.
 12. [Word Dictionary](https://leetcode.com/problems/design-add-and-search-words-data-structure) - Use Trie to solve for defined words and for searches with dots use recursion.
 13. [Nearest Right Node](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree) - Use BFS to track levels and then return first node after search node in the Q.
+13. [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) - use Trie to solve this.
 
 ### **Graph**
 
