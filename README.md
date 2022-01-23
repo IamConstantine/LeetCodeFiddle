@@ -32,6 +32,7 @@ Solutions to LeetCode problems in Scala
 2. [String Minimum Window](https://leetcode.com/problems/minimum-window-substring) - use length of t and l and r ptrs for window to solve this in O(2S)
 3. [Validate Palindrome](https://leetcode.com/problems/valid-palindrome) - Easy problem solved using a l and r pointer.
 4. [Is Anagram ?](https://leetcode.com/problems/valid-anagram) - Use Hashset
+5. [String Codec](https://leetcode.com/problems/encode-and-decode-strings) - use 4 byte chunked encoding for storing length of each string in list. 
 
 #### **Array**
 
