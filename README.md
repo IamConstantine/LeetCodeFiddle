@@ -80,6 +80,7 @@ Solutions to LeetCode problems in Scala
 12. [Word Dictionary](https://leetcode.com/problems/design-add-and-search-words-data-structure) - Use Trie to solve for defined words and for searches with dots use recursion.
 13. [Nearest Right Node](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree) - Use BFS to track levels and then return first node after search node in the Q.
 13. [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) - use Trie to solve this.
+14. [Max Xor Number](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array) - Use Bit Trie to find best xor pair for a number.
 
 ### **Graph**
 
