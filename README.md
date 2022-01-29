@@ -53,6 +53,7 @@ Solutions to LeetCode problems in Scala
 13. [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas) - use binary search to find the required rate in 1, max(piles) search space.
 14. [Gas Station](https://leetcode.com/problems/gas-station) - take two counters. Total has all deficit : gas - cost and curr tracks consumption from a good starting point.
 15. [Sequential Numbers](https://leetcode.com/problems/sequential-digits) - Use a sliding window on '123456789' string.
+16. [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) - use stack to push elements in increasing order and then pop and calculate the area for each popped element.
 
 #### **Linked List**
 
