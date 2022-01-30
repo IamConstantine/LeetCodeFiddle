@@ -34,6 +34,7 @@ Solutions to LeetCode problems in Scala
 3. [Validate Palindrome](https://leetcode.com/problems/valid-palindrome) - Easy problem solved using a l and r pointer.
 4. [Is Anagram ?](https://leetcode.com/problems/valid-anagram) - Use Hashset
 5. [String Codec](https://leetcode.com/problems/encode-and-decode-strings) - use 4 byte chunked encoding for storing length of each string in list. 
+6. [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings) - create a group key based on the shifts.
 
 #### **Array**
 
