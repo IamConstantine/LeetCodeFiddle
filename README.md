@@ -54,6 +54,7 @@ Solutions to LeetCode problems in Scala
 14. [Gas Station](https://leetcode.com/problems/gas-station) - take two counters. Total has all deficit : gas - cost and curr tracks consumption from a good starting point.
 15. [Sequential Numbers](https://leetcode.com/problems/sequential-digits) - Use a sliding window on '123456789' string.
 16. [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) - use stack to push elements in increasing order and then pop and calculate the area for each popped element.
+17. [Rotate Array](https://leetcode.com/problems/rotate-array) - Reverse whole list and then 0,k-1 and k, end.
 
 #### **Linked List**
 

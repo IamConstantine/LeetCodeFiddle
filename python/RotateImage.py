@@ -1,7 +1,7 @@
 from typing import List
 
 
-def rotate(matrix: List[List[int]]):
+def rotateImage(matrix: List[List[int]]):
     n = len(matrix)
     for i in range(n // 2):
         for j in range((n + 1) // 2):
