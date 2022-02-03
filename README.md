@@ -57,6 +57,7 @@ Solutions to LeetCode problems in Scala
 15. [Sequential Numbers](https://leetcode.com/problems/sequential-digits) - Use a sliding window on '123456789' string.
 16. [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) - use stack to push elements in increasing order and then pop and calculate the area for each popped element.
 17. [Rotate Array](https://leetcode.com/problems/rotate-array) - Reverse whole list and then 0,k-1 and k, end.
+18. [4 Sum ii](https://leetcode.com/problems/4sum-ii) - run a loop on k//2 lists to generate counter and then run on the remaining to find the complement.
 
 #### **Linked List**
 
