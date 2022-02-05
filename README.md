@@ -96,6 +96,8 @@ Solutions to LeetCode problems in Scala
 3. [Connected Components](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) - Use BFS/DFS to traverse each connected component.
 4. [Pacific Atlantic Water Flows](https://leetcode.com/problems/pacific-atlantic-water-flow) - use dfs to traverse all edges and individually compute visited for pacific and atlantic edges. The just perform an intersection at the end.
 5. [Course Schedule](https://leetcode.com/problems/course-schedule) - Use DFS to find if there is a cycle.
+6. [Earliest Acquaintance](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends) - Sort on logtime and then use Union Find to reduce groups.
+
 ### **Bit Manipulation**
 
 1. [Reverse BIts for 32 bit unsigned number](https://leetcode.com/problems/reverse-bits) - use bitwise operators to mask and shift the input
