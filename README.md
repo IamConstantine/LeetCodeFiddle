@@ -97,6 +97,7 @@ Solutions to LeetCode problems in Scala
 4. [Pacific Atlantic Water Flows](https://leetcode.com/problems/pacific-atlantic-water-flow) - use dfs to traverse all edges and individually compute visited for pacific and atlantic edges. The just perform an intersection at the end.
 5. [Course Schedule](https://leetcode.com/problems/course-schedule) - Use DFS to find if there is a cycle.
 6. [Earliest Acquaintance](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends) - Sort on logtime and then use Union Find to reduce groups.
+7. [Count Ships in Sea](https://leetcode.com/problems/number-of-ships-in-a-rectangle) - Use divide and conquer to break the search space into 4 quads.
 
 ### **Bit Manipulation**
 
