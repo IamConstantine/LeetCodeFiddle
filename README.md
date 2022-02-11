@@ -36,6 +36,7 @@ Solutions to LeetCode problems in Scala
 5. [String Codec](https://leetcode.com/problems/encode-and-decode-strings) - use 4 byte chunked encoding for storing length of each string in list. 
 6. [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings) - create a group key based on the shifts.
 7. [Find Anagrams](https://leetcode.com/problems/find-all-anagrams-in-a-string) - use two counters - one for p and another to track what has been seen till now and update accordingly.
+8. [Check Inclusion](https://leetcode.com/problems/permutation-in-string) - Use Sliding window with counter.
 
 #### **Array**
 
