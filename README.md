@@ -61,6 +61,7 @@ Solutions to LeetCode problems in Scala
 18. [4 Sum ii](https://leetcode.com/problems/4sum-ii) - run a loop on k//2 lists to generate counter and then run on the remaining to find the complement.
 19. [Find Max Length of Zeros and Ones in array](https://leetcode.com/problems/contiguous-array) - a very high IQ implementation using map to track the count of 0s and 1s and track max length.
 20. [Subarray Sum](https://leetcode.com/problems/subarray-sum-equals-k) - use map to store cumulative and the no of occurences.
+21. [Subsets](https://leetcode.com/problems/subsets) - Use cascading to solve in N * 2 ^ N.
 
 #### **Linked List**
 
