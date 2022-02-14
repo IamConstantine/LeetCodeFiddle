@@ -102,6 +102,7 @@ Solutions to LeetCode problems in Scala
 6. [Earliest Acquaintance](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends) - Sort on logtime and then use Union Find to reduce groups.
 7. [Count Ships in Sea](https://leetcode.com/problems/number-of-ships-in-a-rectangle) - Use divide and conquer to break the search space into 4 quads.
 8. [Word Ladder](https://leetcode.com/problems/word-ladder) - use BFS to traverse all levels.
+9. [Alien Dictionary)(https://leetcode.com/problems/alien-dictionary) - use topological sort.
 
 ### **Bit Manipulation**
 
