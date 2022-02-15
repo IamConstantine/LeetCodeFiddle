@@ -37,6 +37,7 @@ Solutions to LeetCode problems in Scala
 6. [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings) - create a group key based on the shifts.
 7. [Find Anagrams](https://leetcode.com/problems/find-all-anagrams-in-a-string) - use two counters - one for p and another to track what has been seen till now and update accordingly.
 8. [Check Inclusion](https://leetcode.com/problems/permutation-in-string) - Use Sliding window with counter.
+9. [K length Substring No Repeats](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters) - use sliding window.
 
 #### **Array**
 
