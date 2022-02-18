@@ -13,23 +13,16 @@ from typing import List
 # Also the space used to hold the final results for the space complexity.
 
 def combinationSum(candidates: List[int], target: int) -> List[List[int]]:
-    list_of_combs = []
-    length = len(candidates)
+    res = []
 
-    def combinationSumInner(rem: int, l, start):
-        if rem == 0:
-            list_of_combs.append(list(l))
-            return l
-        if rem < 0:
+    def combinationSumInner(n, l, start):
+        if target < n:
             return
+        if target == n:
+            return res.append(l)
 
-        for index in range(start, length):
-            x = candidates[index]
-            l.append(x)
-            combinationSumInner(rem - x, l, index)
-            l.pop()
-            index += 1
+        for i in range(start, len(candidates)):
+            combinationSumInner(n + candidates[i], l + [candidates[i]], i)
 
-    combinationSumInner(target, [], 0)
-    return list_of_combs
-
+    combinationSumInner(0, [], 0)
+    return res
