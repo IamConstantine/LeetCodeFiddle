@@ -74,6 +74,7 @@ Solutions to LeetCode problems in Scala
 #### **Greedy**
 
 1. [Can Jump](https://leetcode.com/problems/jump-game) - Simple bottom up solution using Greedy. Just use the lastPos pointer to solve the local optima. This problem can be solved using DP as well but the solution is worse ie O(n^2)
+2. [Remove Covered Interval](https://leetcode.com/problems/remove-covered-intervals) - sort start asc and end desc and then use only end time to figure out actual count.
 
 #### **Tree**
 
