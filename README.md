@@ -98,15 +98,16 @@ Solutions to LeetCode problems in Scala
 
 ### **Graph**
 
-1. [Clone Graph](https://leetcode.com/problems/clone-graph) - Can use BFS to traverse each node and get all the neighbours and a map to store the new nodes as keys.
-2. [Number of Islands](https://leetcode.com/problems/number-of-islands) - a solution using DFS/BFS with set. It can also be solved using Union Find.
-3. [Connected Components](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) - Use BFS/DFS to traverse each connected component.
-4. [Pacific Atlantic Water Flows](https://leetcode.com/problems/pacific-atlantic-water-flow) - use dfs to traverse all edges and individually compute visited for pacific and atlantic edges. The just perform an intersection at the end.
-5. [Course Schedule](https://leetcode.com/problems/course-schedule) - Use DFS to find if there is a cycle.
-6. [Earliest Acquaintance](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends) - Sort on logtime and then use Union Find to reduce groups.
-7. [Count Ships in Sea](https://leetcode.com/problems/number-of-ships-in-a-rectangle) - Use divide and conquer to break the search space into 4 quads.
-8. [Word Ladder](https://leetcode.com/problems/word-ladder) - use BFS to traverse all levels.
-9. [Alien Dictionary)(https://leetcode.com/problems/alien-dictionary) - use topological sort.
+1.  [Clone Graph](https://leetcode.com/problems/clone-graph) - Can use BFS to traverse each node and get all the neighbours and a map to store the new nodes as keys.
+2.  [Number of Islands](https://leetcode.com/problems/number-of-islands) - a solution using DFS/BFS with set. It can also be solved using Union Find.
+3.  [Connected Components](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) - Use BFS/DFS to traverse each connected component.
+4.  [Pacific Atlantic Water Flows](https://leetcode.com/problems/pacific-atlantic-water-flow) - use dfs to traverse all edges and individually compute visited for pacific and atlantic edges. The just perform an intersection at the end.
+5.  [Course Schedule](https://leetcode.com/problems/course-schedule) - Use DFS to find if there is a cycle.
+6.  [Earliest Acquaintance](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends) - Sort on logtime and then use Union Find to reduce groups.
+7.  [Count Ships in Sea](https://leetcode.com/problems/number-of-ships-in-a-rectangle) - Use divide and conquer to break the search space into 4 quads.
+8.  [Word Ladder](https://leetcode.com/problems/word-ladder) - use BFS to traverse all levels.
+9.  [Alien Dictionary](https://leetcode.com/problems/alien-dictionary) - use topological sort.
+10. [Shortest Path to traverse all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes) - use dfs with visited bitmap.
 
 ### **Bit Manipulation**
 
