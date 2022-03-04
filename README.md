@@ -65,6 +65,7 @@ Solutions to LeetCode problems in Scala
 20. [Subarray Sum](https://leetcode.com/problems/subarray-sum-equals-k) - use map to store cumulative and the no of occurences.
 21. [Subsets](https://leetcode.com/problems/subsets) - Use cascading to solve in N * 2 ^ N.
 22. [Remove K Digits](https://leetcode.com/problems/remove-k-digits) - Use a stack to compare left and curr digit.
+23. [Champagne Tower](https://leetcode.com/problems/champagne-tower) - Use 2D array to track progress of glasses.
 
 #### **Linked List**
 
