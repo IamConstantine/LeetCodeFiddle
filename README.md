@@ -15,6 +15,7 @@ Solutions to LeetCode problems in Scala
 6. [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) - use bottom up on a dp[text1+1][text2+1] array. Refer the solution section for more details.
 7. [House Robber II](https://leetcode.com/problems/house-robber-ii) - compute max of house_robber(1, N) and house_robber(0, N-1).
 8. [Stone Game IV](https://leetcode.com/problems/stone-game-iv) - use dfs with memo or dp to calculate for each value of n from 1 to n + 1.
+9. [Count Delivery Orders](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options) - Use top-down DP with memo to solve the problem using permutations.
 
 #### **Divide and Conquer**
 
