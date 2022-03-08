@@ -31,15 +31,16 @@ Solutions to LeetCode problems in Scala
 
 #### **Strings**
 
-1. [Group Anagrams](https://leetcode.com/problems/group-anagrams) - can define group key using sorted strings(O(NKlogK)) or character count(0(NK)) approach
-2. [String Minimum Window](https://leetcode.com/problems/minimum-window-substring) - use length of t and l and r ptrs for window to solve this in O(2S)
-3. [Validate Palindrome](https://leetcode.com/problems/valid-palindrome) - Easy problem solved using a l and r pointer.
-4. [Is Anagram ?](https://leetcode.com/problems/valid-anagram) - Use Hashset
-5. [String Codec](https://leetcode.com/problems/encode-and-decode-strings) - use 4 byte chunked encoding for storing length of each string in list. 
-6. [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings) - create a group key based on the shifts.
-7. [Find Anagrams](https://leetcode.com/problems/find-all-anagrams-in-a-string) - use two counters - one for p and another to track what has been seen till now and update accordingly.
-8. [Check Inclusion](https://leetcode.com/problems/permutation-in-string) - Use Sliding window with counter.
-9. [K length Substring No Repeats](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters) - use sliding window.
+1.  [Group Anagrams](https://leetcode.com/problems/group-anagrams) - can define group key using sorted strings(O(NKlogK)) or character count(0(NK)) approach
+2.  [String Minimum Window](https://leetcode.com/problems/minimum-window-substring) - use length of t and l and r ptrs for window to solve this in O(2S)
+3.  [Validate Palindrome](https://leetcode.com/problems/valid-palindrome) - Easy problem solved using a l and r pointer.
+4.  [Is Anagram ?](https://leetcode.com/problems/valid-anagram) - Use Hashset
+5.  [String Codec](https://leetcode.com/problems/encode-and-decode-strings) - use 4 byte chunked encoding for storing length of each string in list. 
+6.  [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings) - create a group key based on the shifts.
+7.  [Find Anagrams](https://leetcode.com/problems/find-all-anagrams-in-a-string) - use two counters - one for p and another to track what has been seen till now and update accordingly.
+8.  [Check Inclusion](https://leetcode.com/problems/permutation-in-string) - Use Sliding window with counter.
+9.  [K length Substring No Repeats](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters) - use sliding window.
+10. [Strobogrammatic Number - II](https://leetcode.com/problems/strobogrammatic-number-ii) - use level order to find the required combinations.
 
 #### **Array**
 
