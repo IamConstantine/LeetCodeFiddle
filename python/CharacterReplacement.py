@@ -5,7 +5,7 @@ from collections import defaultdict
 # Medium
 # T = O(N)
 # S = O(N)
-# The problem statemnt on website is vague as of 15th March 2022.
+# The problem statement on website is vague as of 15th March 2022.
 # The list of chars can be replaced from any Character to any character k times.
 
 # Sliding Window
@@ -20,7 +20,7 @@ def characterReplacement(s: str, k: int) -> int:
         freq[s[right]] += 1
 
         # length of window - top char count should be less than k
-        # its just to find minimum no of deletions needed to make
+        # It's just to find minimum no of deletions needed to make
         # window made of same chars
         if right - left + 1 - max(freq.values()) <= k:
             longest = max(longest, right - left + 1)
