@@ -41,6 +41,7 @@ Solutions to LeetCode problems in Scala
 8.  [Check Inclusion](https://leetcode.com/problems/permutation-in-string) - Use Sliding window with counter.
 9.  [K length Substring No Repeats](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters) - use sliding window.
 10. [Strobogrammatic Number - II](https://leetcode.com/problems/strobogrammatic-number-ii) - use level order to find the required combinations.
+11. [Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) - use a sliding window to figure out the valid char set.
 
 #### **Array**
 
