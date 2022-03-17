@@ -43,6 +43,7 @@ Solutions to LeetCode problems in Scala
 10. [Strobogrammatic Number - II](https://leetcode.com/problems/strobogrammatic-number-ii) - use level order to find the required combinations.
 11. [Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) - use a sliding window to figure out the valid char set.
 12. [Count Pallindromic Substrings](https://leetcode.com/problems/palindromic-substrings) - use an expand around center approach.
+13. [Score of Parantheses](https://leetcode.com/problems/score-of-parentheses) - count cores ie ().
 
 #### **Array**
 
