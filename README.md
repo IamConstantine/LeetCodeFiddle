@@ -71,7 +71,8 @@ Solutions to LeetCode problems in Scala
 21. [Subsets](https://leetcode.com/problems/subsets) - Use cascading to solve in N * 2 ^ N.
 22. [Remove K Digits](https://leetcode.com/problems/remove-k-digits) - Use a stack to compare left and curr digit.
 23. [Champagne Tower](https://leetcode.com/problems/champagne-tower) - Use 2D array to track progress of glasses.
-34. [Campus Bikes](xhttps://leetcode.com/problems/campus-bikes] - Use bucketing to sort out all distance pairs and then pick first N workers pairs.
+34. [Campus Bikes](https://leetcode.com/problems/campus-bikes] - Use bucketing to sort out all distance pairs and then pick first N workers pairs.
+35. [Max Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack) - Two approaches: One can be done using Max Heap with a triplet of (freq, index, val) and another one can done using freq group and a max variable. 
 
 #### **Linked List**
 
