@@ -73,6 +73,7 @@ Solutions to LeetCode problems in Scala
 23. [Champagne Tower](https://leetcode.com/problems/champagne-tower) - Use 2D array to track progress of glasses.
 34. [Campus Bikes](https://leetcode.com/problems/campus-bikes] - Use bucketing to sort out all distance pairs and then pick first N workers pairs.
 35. [Max Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack) - Two approaches: One can be done using Max Heap with a triplet of (freq, index, val) and another one can done using freq group and a max variable. 
+36. [Increasing Triplets](https://leetcode.com/problems/increasing-triplet-subsequence) - use a loop to find a first and second.
 
 #### **Linked List**
 

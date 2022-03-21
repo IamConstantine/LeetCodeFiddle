@@ -1,0 +1,19 @@
+from typing import List
+
+
+# https://leetcode.com/problems/increasing-triplet-subsequence
+# Medium
+# T = O(N)
+# S = O(1)
+def increasingTriplet(nums: List[int]) -> bool:
+    first = float('inf')
+    second = float('inf')
+
+    for n in nums:
+        if n <= first:
+            first = n
+        elif n <= second:
+            second = n
+        else:
+            return True
+    return False
