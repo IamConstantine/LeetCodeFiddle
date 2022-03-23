@@ -88,6 +88,7 @@ Solutions to LeetCode problems in Scala
 3. [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences) - use a greedy approach to start popping once u find a match.
 4. [Remove Duplicate Characters](https://leetcode.com/problems/remove-duplicate-letters) - use greedy with stack approach.
 5. [Min Domino Rotations](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row) - Use greedy approach on an any arbitrary index.
+6. [Broken Calculator](https://leetcode.com/problems/broken-calculator) - Greedily divide the target to reach near the startValue and then use addition to reach the startValue.
 
 #### **Tree**
 
