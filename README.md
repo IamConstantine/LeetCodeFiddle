@@ -74,6 +74,7 @@ Solutions to LeetCode problems in Scala
 34. [Campus Bikes](https://leetcode.com/problems/campus-bikes] - Use bucketing to sort out all distance pairs and then pick first N workers pairs.
 35. [Max Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack) - Two approaches: One can be done using Max Heap with a triplet of (freq, index, val) and another one can done using freq group and a max variable. 
 36. [Increasing Triplets](https://leetcode.com/problems/increasing-triplet-subsequence) - use a loop to find a first and second.
+37. [Search 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix-ii) - start from bottom left and decrement row and increment column until we find the target.
 
 #### **Linked List**
 
