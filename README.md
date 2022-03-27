@@ -90,6 +90,7 @@ Solutions to LeetCode problems in Scala
 4. [Remove Duplicate Characters](https://leetcode.com/problems/remove-duplicate-letters) - use greedy with stack approach.
 5. [Min Domino Rotations](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row) - Use greedy approach on an any arbitrary index.
 6. [Broken Calculator](https://leetcode.com/problems/broken-calculator) - Greedily divide the target to reach near the startValue and then use addition to reach the startValue.
+7. [Min Deletions To Beautiful Array](https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful) - greedily create another array with elligible elements.
 
 #### **Tree**
 
