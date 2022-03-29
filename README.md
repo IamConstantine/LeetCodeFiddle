@@ -126,6 +126,7 @@ Solutions to LeetCode problems in Scala
 8.  [Word Ladder](https://leetcode.com/problems/word-ladder) - use BFS to traverse all levels.
 9.  [Alien Dictionary](https://leetcode.com/problems/alien-dictionary) - use topological sort.
 10. [Shortest Path to traverse all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes) - use dfs with visited bitmap.
+11. [Maximum Minimum in Path](https://leetcode.com/problems/path-with-maximum-minimum-value) - We will use a max heap to always traverse to max yielding path.
 
 ### **Bit Manipulation**
 
