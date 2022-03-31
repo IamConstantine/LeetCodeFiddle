@@ -23,6 +23,7 @@ Solutions to LeetCode problems in Scala
 2. [Find Min in Rotated Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) - Use Binary Search to find min in search space.
 3. [Sort Linked List](https://leetcode.com/problems/sort-list) - Use merge sort.
 4. [Search in Rotated Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) - Use Binary search with code to handle duplicates.
+5. [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum) - Use binary search on max of nums to sum of nums space.
 
 #### **Backtracking**
 
