@@ -79,6 +79,7 @@ Solutions to LeetCode problems in Scala
 36. [Increasing Triplets](https://leetcode.com/problems/increasing-triplet-subsequence) - use a loop to find a first and second.
 37. [Search 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix-ii) - start from bottom left and decrement row and increment column until we find the target.
 38. [Find Duplicates Number](https://leetcode.com/problems/find-the-duplicate-number) - Use Floyd's Cycle Detection Algorithm.
+39. [Next Permutation](https://leetcode.com/problems/next-permutation) - A single pass approach by reversing some part of the array.
 
 #### **Linked List**
 
