@@ -80,6 +80,7 @@ Solutions to LeetCode problems in Scala
 37. [Search 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix-ii) - start from bottom left and decrement row and increment column until we find the target.
 38. [Find Duplicates Number](https://leetcode.com/problems/find-the-duplicate-number) - Use Floyd's Cycle Detection Algorithm.
 39. [Next Permutation](https://leetcode.com/problems/next-permutation) - A single pass approach by reversing some part of the array.
+40. [Minimize Sum of Products of Two Arrays](https://leetcode.com/problems/minimize-product-sum-of-two-arrays) - Sort two arrays in different orders and then perform sum of products.
 
 #### **Linked List**
 
