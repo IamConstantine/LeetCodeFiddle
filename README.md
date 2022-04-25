@@ -138,3 +138,7 @@ Solutions to LeetCode problems in Scala
 1. [Reverse BIts for 32 bit unsigned number](https://leetcode.com/problems/reverse-bits) - use bitwise operators to mask and shift the input
 2. [Count Set Bits](https://leetcode.com/problems/number-of-1-bits) - use mask and shift
 3. [Bitwise Sum](https://leetcode.com/problems/sum-of-two-integers) - Read the solution section for proper understanding of the xor and and operations in the computation.
+
+### Maths
+
+1. [Count Latice Points](https://leetcode.com/problems/count-lattice-points-inside-a-circle) - use distance formula to find all the points that lie within the radius of a circle.
