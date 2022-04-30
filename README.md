@@ -135,6 +135,7 @@ Solutions to LeetCode problems in Scala
 11. [Maximum Minimum in Path](https://leetcode.com/problems/path-with-maximum-minimum-value) - We will use a max heap to always traverse to max yielding path.
 12. [Min Cost to connect all points](https://leetcode.com/problems/min-cost-to-connect-all-points) - Use any MST algorithm.
 13. [Smallest string with swaps](https://leetcode.com/problems/smallest-string-with-swaps) - can be done using dfs by considering each swap pair as edges of graph.
+14. [Evaluate Division](https://leetcode.com/problems/evaluate-division) - solved using graph where equations can be used to define the edges and value as cost.
 
 ### **Bit Manipulation**
 
