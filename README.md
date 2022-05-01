@@ -48,6 +48,7 @@ Solutions to LeetCode problems in Scala
 12. [Count Pallindromic Substrings](https://leetcode.com/problems/palindromic-substrings) - use an expand around center approach.
 13. [Score of Parantheses](https://leetcode.com/problems/score-of-parentheses) - count cores ie ().
 14. [Minimize result using parantheses](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression) - use a precalculated list of combinations for each number and then pair up every combination.
+15. [Total Appeal of String](https://leetcode.com/problems/total-appeal-of-a-string) - use previously computed output to find the current value.
 
 #### **Array**
 
