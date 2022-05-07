@@ -120,8 +120,9 @@ Solutions to LeetCode problems in Scala
 13. [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) - use Trie to solve this.
 14. [Max Xor Number](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array) - Use Bit Trie to find best xor pair for a number.
 15. [Width Of Tree](https://leetcode.com/problems/maximum-width-of-binary-tree) - Use BFS or DFS.
-16. [Encode N-ary tree]https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree) - use BFS to encode the n-ary tree where left child of binary tree would LL of all its children and right would be its siblings.
+16. [Encode N-ary tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree) - use BFS to encode the n-ary tree where left child of binary tree would LL of all its children and right would be its siblings.
 17. [Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree) - use inorder traversal to find valid Binary search tree along with its length.
+18. [Upside Down Binary Tree](https://leetcode.com/problems/binary-tree-upside-down) - just use a while loop and swap places.
 
 ### **Graph**
 
