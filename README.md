@@ -83,6 +83,7 @@ Solutions to LeetCode problems in Scala
 38. [Find Duplicates Number](https://leetcode.com/problems/find-the-duplicate-number) - Use Floyd's Cycle Detection Algorithm.
 39. [Next Permutation](https://leetcode.com/problems/next-permutation) - A single pass approach by reversing some part of the array.
 40. [Minimize Sum of Products of Two Arrays](https://leetcode.com/problems/minimize-product-sum-of-two-arrays) - Sort two arrays in different orders and then perform sum of products.
+41. [132 Pattern](https://leetcode.com/problems/132-pattern) - use stack and min to track the valid tuples.
 
 #### **Linked List**
 
