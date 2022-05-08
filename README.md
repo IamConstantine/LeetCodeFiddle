@@ -31,6 +31,7 @@ Solutions to LeetCode problems in Scala
 2. [Word Search](https://leetcode.com/problems/word-search) - Intuitive solution using visited matrix and traverse all 3 directions from one cell approach.
 3. [Word Search II](https://leetcode.com/problems/word-search-ii) - Use Trie of all the words and then traverse the board like Word Search Problem. We would need to pop leaves when match is met to avoid exploration of visited trie nodes.
 4. [Brace Expansion](https://leetcode.com/problems/brace-expansion) - use backtracking to find all the combinations.
+5. [Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner) - visited all directions but always only use turnRight().
 
 #### **Strings**
 
