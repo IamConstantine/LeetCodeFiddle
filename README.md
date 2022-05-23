@@ -16,6 +16,7 @@ Solutions to LeetCode problems in Scala
 7. [House Robber II](https://leetcode.com/problems/house-robber-ii) - compute max of house_robber(1, N) and house_robber(0, N-1).
 8. [Stone Game IV](https://leetcode.com/problems/stone-game-iv) - use dfs with memo or dp to calculate for each value of n from 1 to n + 1.
 9. [Count Delivery Orders](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options) - Use top-down DP with memo to solve the problem using permutations.
+10.[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes) - Use DP(m,n,idx) with list of counters.
 
 #### **Divide and Conquer**
 
